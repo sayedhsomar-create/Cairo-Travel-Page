@@ -1,112 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top attractions in Cairo</title>
-    <link rel="stylesheet" href="css/reboot.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- CSS بتاعك -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <div class="container">
+    <section>
+        <div class="container">
 
-        
-        <header class="page-header">
-            <h1>Top Attractions in Cairo</h1>
-            <img class="img-cairo" src="img/Cairo1.jpg" alt="Cairo">
-        </header>
 
-        
-        <ul class="info-page">
-            <li>City: Cairo</li>
-            <li>Suggested Visit Time: 2-3 days</li>
-            <li>Cost: Moderate</li>
-            <li>Best Season: All year</li>
-        </ul>
 
-        
-        <div class="intro">
-            <p>
-                Cairo, the capital of Egypt, is a city full of history, culture, and amazing sights. Visitors can explore ancient monuments, vibrant markets, and historic neighborhoods.
-            </p>
+            <div class="container text-center">
 
-            <p>
-                From the iconic Pyramids of Giza to the bustling streets of Khan El Khalili, Cairo offers an unforgettable experience for every traveler. Planning ahead will help you enjoy the city to its fullest.
-            </p>
+                <header class="page-header mb-4">
+                    <h1 class="fw-bold">Top Attractions in Cairo</h1>
+                    <img class="img-fluid rounded" src="img/Cairo1.jpg" alt="Cairo">
+                </header>
+
+                <ul class="list-inline info-page mb-4">
+                    <li class="list-inline-item"><strong>City:</strong> Cairo</li>
+                    <li class="list-inline-item"><strong>Suggested Visit Time:</strong> 2-3 days</li>
+                    <li class="list-inline-item"><strong>Cost:</strong> Moderate</li>
+                    <li class="list-inline-item"><strong>Best Season:</strong> All year</li>
+                </ul>
+
+                <div class="intro">
+                    <p>
+                        Cairo, the capital of Egypt, is a city full of history, culture, and amazing sights. Visitors
+                        can
+                        explore ancient monuments, vibrant markets, and historic neighborhoods.
+                    </p>
+
+                    <p>
+                        From the iconic Pyramids of Giza to the bustling streets of Khan El Khalili, Cairo offers an
+                        unforgettable experience for every traveler. Planning ahead will help you enjoy the city to its
+                        fullest.
+                    </p>
+                </div>
+
+            </div>
+
+
+
+            <div class="destination">
+                <h2 class="destination-title">Pyramids of Giza</h2>
+                <img class="destination-img" src="img/pyramids2.jpg" alt="Pyramids of Giza">
+                <p class="destination-desc">
+                    The Pyramids of Giza are ancient wonders located in Giza. They are a must-see when visiting Cairo.
+                </p>
+                <ul class="destination-info">
+                    <li>Location: Giza</li>
+                    <li>Best time: Morning</li>
+                    <li>Entrance Fee: ~200 EGP</li>
+                </ul>
+
+                <a href="https://en.wikipedia.org/wiki/Giza_Pyramid_Complex" target="_blank"
+                    class="btn btn-primary mt-3">
+                    More Info
+                </a>
+
+                <a href="https://www.booking.com/landmark/eg/giza-pyramids.en.html?aid=314919;label=giza-pyramids-EcM1iVPpAvX7F_SAAd3aUgS388400146201:pl:ta:p155:p2:ac:ap:neg:fi:tikwd-49915698467:lp9212133:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YfOICo1LOVmejEBpLq7NOGI;ws=&gad_source=1&gad_campaignid=28668890&gbraid=0AAAAAD_Ls1JoLvmvxp5dGc89AruskPJEv&gclid=CjwKCAiA3fnJBhAgEiwAyqmY5eWZrw8L_81H6vaY964V4ZyU5qXLku4UmBMX2KPCZpra1H72u-z8mBoCd08QAvD_BwE"
+                    target="_blank" class="btn btn-primary mt-3">
+                    Book Hotel Nearby
+                </a>
+            </div>
+
+
+            <div class="destination">
+                <h2 class="destination-title">Egyptian Museum</h2>
+                <img class="destination-img" src="img/museum3.jpg" alt="Egyptian Museum">
+                <p class="destination-desc">
+                    The Egyptian Museum houses the world's largest collection of pharaonic antiquities.
+                </p>
+                <ul class="destination-info">
+                    <li>Location: Tahrir Square</li>
+                    <li>Best time: Afternoon</li>
+                    <li>Entrance Fee: ~160 EGP</li>
+                </ul>
+
+                <a href="https://gem.eg/" target="_blank" class="btn btn-primary mt-3">
+                    More Info
+                </a>
+
+                <a href="https://www.booking.com/landmark/eg/cairo-museum-t4.en-gb.html?aid=1135786;label=cairo-museum-t4-1pmgQjt7edehgUMR*ZNfBQS589804383065:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-783416028150:lp9212133:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YcpDr58xwogAfuBu-XwhWKk;ws=&gad_source=1&gad_campaignid=434280266&gbraid=0AAAAAD_Ls1KHqPikvlYKfx3-plCEXilSR&gclid=CjwKCAiA3fnJBhAgEiwAyqmY5W_pPaedeyLuBwbA6wGsWaGehHU-uQaktG7YIbxvwEtRkxRRAec_XBoCrTgQAvD_BwE"
+                    target="_blank" class="btn btn-primary mt-3">
+                    Book Hotel Nearby
+                </a>
+
+            </div>
+
+
+            <div class="destination">
+                <h2 class="destination-title">Khan El Khalili Bazaar</h2>
+                <img class="destination-img" src="img/bazaar4.jpg" alt="Khan El Khalili Bazaar">
+                <p class="destination-desc">
+                    A famous market in Cairo where you can shop for souvenirs, spices, and traditional crafts.
+                </p>
+                <ul class="destination-info">
+                    <li>Location: Islamic Cairo</li>
+                    <li>Best time: Evening</li>
+                    <li>Cost: Free to enter, shopping extra</li>
+                </ul>
+
+                <a href="https://www.tripadvisor.it/Attraction_Review-g294201-d308884-Reviews-Khan_Al_Khalili-Cairo_Cairo_Governorate.html"
+                    target="_blank" class="btn btn-primary mt-3">
+                    More Info
+                </a>
+
+                <a href="https://www.booking.com/landmark/eg/khan-al-khalili.en.html?aid=314919;label=khan-al-khalili-cchhwOwpE*hieKB0wji45wS394459782420:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-300268055956:lp9212133:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YfOICo1LOVmejEBpLq7NOGI;ws=&gad_source=1&gad_campaignid=28668890&gbraid=0AAAAAD_Ls1JoLvmvxp5dGc89AruskPJEv&gclid=CjwKCAiA3fnJBhAgEiwAyqmY5fSFoQseD_HxiftK3qW3K8fdpaTRLbWh_w5rcuT9MyUvWoOmDzhmsBoC-gEQAvD_BwE"
+                    target="_blank" class="btn btn-primary mt-3">
+                    Book Hotel Nearby
+                </a>
+
+            </div>
+
+
+            <div class="destination">
+                <h2 class="destination-title">Cairo Citadel</h2>
+                <img class="destination-img" src="img/citadel5.jpg" alt="Cairo Citadel">
+                <p class="destination-desc">
+                    The Citadel of Cairo is a historic fortress with mosques and museums, offering panoramic views of
+                    the
+                    city.
+                </p>
+                <ul class="destination-info">
+                    <li>Location: Islamic Cairo</li>
+                    <li>Best time: Afternoon</li>
+                    <li>Entrance Fee: ~180 EGP</li>
+                </ul>
+
+
+                <a href="https://www.scopriegitto.com/cittadella-saladino" target="_blank" class="btn btn-primary mt-3">
+                    More Info
+                </a>
+
+                <a href="https://www.booking.com/landmark/eg/cairo-citadel.en.html?aid=314919;label=cairo-citadel-H41x8Rdk8RRBbTmBfvCkIwS394459782414:pl:ta:p1140:p2:ac:ap:neg:fi:tikwd-7935197990:lp9212133:li:dec:dm:ppccp=UmFuZG9tSVYkc2RlIyh9YfOICo1LOVmejEBpLq7NOGI;ws=&gad_source=1&gad_campaignid=28668890&gbraid=0AAAAAD_Ls1JoLvmvxp5dGc89AruskPJEv&gclid=CjwKCAiA3fnJBhAgEiwAyqmY5YOTlHnhFFJV58Q0B1wrrCe1CTl2kPAZZJdZsvhso2RlVtfKaeaaRxoCpr0QAvD_BwE"
+                    target="_blank" class="btn btn-primary mt-3">
+                    Book Hotel Nearby
+                </a>
+
+            </div>
+
+
+
+
+    </section>
+
+    <section class="other-activities py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Other Activities</h2>
+            <div class="row g-4">
+
+                <!-- كارت 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="img/nile_Cruise.jpg" class="card-img-top" alt="Nile Cruise">
+                        <div class="card-body">
+                            <h5 class="card-title">Nile Cruise</h5>
+                            <p class="card-text">Enjoy a relaxing yacht cruise on the Nile river with beautiful views of
+                                Cairo.</p>
+                            <div class="d-flex gap-2 mt-2">
+                                <a href="https://www.reimagine-education.com/nile-liberty-boat-qs-gala-dinner/"
+                                    target="_blank" class="btn btn-primary">More Info</a>
+                                <a href="#" class="btn btn-success">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- كارت 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="img/camel_ride.jpg" class="card-img-top" alt="Camel Ride at Pyramids">
+                        <div class="card-body">
+                            <h5 class="card-title">Camel Ride at Pyramids</h5>
+                            <p class="card-text">Experience riding a camel around the Pyramids of Giza for an
+                                unforgettable adventure.</p>
+                            <div class="d-flex gap-2 mt-2">
+                                <a href="https://www.viator.com/Giza-tourism/d23032-r51662854270-s383235011?gclsrc=aw.ds&&m=28353&supag=119943340980&supca=12519862729&supsc=kwd-298238879730&supai=781341714130&supdv=c&supnt=g&suplp=9212133&supli=&supti=kwd-298238879730&tsem=true&supci=kwd-298238879730&supap1=&supap2=&supfi=&synthetic_keyword=pyramid%20tours%20egypt&gad_source=1&gad_campaignid=12519862729&gbraid=0AAAAAD-gbd7J0CbKPFXVye4bqHm8HSJow&gclid=CjwKCAiA3fnJBhAgEiwAyqmY5XL-1_D9ToCsBXqzxGYxQawFyQVf0mbXhbpUHoFW8seN-mqHlU4u8hoCMwoQAvD_BwE"
+                                    target="_blank" class="btn btn-primary">More Info</a>
+                                <a href="#" class="btn btn-success">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- كارت 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="img/horse_carriage.jpg" class="card-img-top" alt="Horse Carriage in Giza">
+                        <div class="card-body">
+                            <h5 class="card-title">Horse Carriage in Giza</h5>
+                            <p class="card-text">Ride a traditional horse carriage and explore Giza in style and
+                                comfort.</p>
+                            <div class="d-flex gap-2 mt-2">
+                                <a href="#" class="btn btn-primary">More Info</a>
+                                <a href="#" class="btn btn-success">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- كارت 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="img/private_car_driver.jpg" class="card-img-top" alt="Cooking Class">
+                        <div class="card-body">
+                            <h5 class="card-title">Private Car with Driver</h5>
+                            <p class="card-text">Rent a private car with a professional driver to explore Cairo
+                                comfortably and safely.</p>
+                            <div class="d-flex gap-2 mt-2">
+                                <a href="#" class="btn btn-primary">More Info</a>
+                                <a href="#" class="btn btn-success">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- كارت 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="img/felucca_ride.jpg" class="card-img-top" alt="Felucca Ride">
+                        <div class="card-body">
+                            <h5 class="card-title">Felucca Ride</h5>
+                            <p class="card-text">Sail on a traditional felucca boat along the Nile and enjoy scenic
+                                views.</p>
+                            <div class="d-flex gap-2 mt-2">
+                                <a href="#" class="btn btn-primary">More Info</a>
+                                <a href="#" class="btn btn-success">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- كارت 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="img/skydiving.jpg" class="card-img-top" alt="Hot Air Balloon">
+                        <div class="card-body">
+                            <h5 class="card-title">Sky Diving Experience</h5>
+                            <p class="card-text">An unforgettable adventure with breathtaking views and
+                                professional instructors.</p>
+                            <div class="d-flex gap-2 mt-2">
+                                <a href="#" class="btn btn-primary">More Info</a>
+                                <a href="#" class="btn btn-success">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </section>
 
-        
-        <div class="destination">
-            <h2 class="destination-title">Pyramids of Giza</h2>
-            <img class="destination-img" src="img/pyramids2.jpg" alt="Pyramids of Giza">
-            <p class="destination-desc">
-                The Pyramids of Giza are ancient wonders located in Giza. They are a must-see when visiting Cairo.
-            </p>
-            <ul class="destination-info">
-                <li>Location: Giza</li>
-                <li>Best time: Morning</li>
-                <li>Entrance Fee: ~200 EGP</li>
-            </ul>
-        </div>
+    <div class="tips">
+        <h2>Tips for Visitors</h2>
+        <p>
+            It's best to start your day early to avoid the crowds, wear comfortable shoes for walking, and stay
+            hydrated. For shopping at Khan El Khalili, be ready to haggle for better prices.
+        </p>
+        <p>
+            Exploring Cairo's top attractions will give you a deep appreciation of the city's rich history and
+            vibrant culture, making it a must-visit destination for every traveler.
+        </p>
+    </div>
 
-        
-        <div class="destination">
-            <h2 class="destination-title">Egyptian Museum</h2>
-            <img class="destination-img" src="img/museum3.jpg" alt="Egyptian Museum">
-            <p class="destination-desc">
-                The Egyptian Museum houses the world's largest collection of pharaonic antiquities.
-            </p>
-            <ul class="destination-info">
-                <li>Location: Tahrir Square</li>
-                <li>Best time: Afternoon</li>
-                <li>Entrance Fee: ~160 EGP</li>
-            </ul>
-        </div>
 
-        
-        <div class="destination">
-            <h2 class="destination-title">Khan El Khalili Bazaar</h2>
-            <img class="destination-img" src="img/bazaar4.jpg" alt="Khan El Khalili Bazaar">
-            <p class="destination-desc">
-                A famous market in Cairo where you can shop for souvenirs, spices, and traditional crafts.
-            </p>
-            <ul class="destination-info">
-                <li>Location: Islamic Cairo</li>
-                <li>Best time: Evening</li>
-                <li>Cost: Free to enter, shopping extra</li>
-            </ul>
-        </div>
-
-        
-        <div class="destination">
-            <h2 class="destination-title">Cairo Citadel</h2>
-            <img class="destination-img" src="img/citadel5.jpg" alt="Cairo Citadel">
-            <p class="destination-desc">
-                The Citadel of Cairo is a historic fortress with mosques and museums, offering panoramic views of the city.
-            </p>
-            <ul class="destination-info">
-                <li>Location: Islamic Cairo</li>
-                <li>Best time: Afternoon</li>
-                <li>Entrance Fee: ~180 EGP</li>
-            </ul>
-        </div>
-
-        
-        <div class="tips">
-            <h2>Tips for Visitors</h2>
-            <p>
-                It's best to start your day early to avoid the crowds, wear comfortable shoes for walking, and stay hydrated. For shopping at Khan El Khalili, be ready to haggle for better prices.
-            </p>
-            <p>
-                Exploring Cairo's top attractions will give you a deep appreciation of the city's rich history and vibrant culture, making it a must-visit destination for every traveler.
-            </p>
-        </div>
-
-    </div> 
 
 </body>
+
 </html>
